@@ -1,0 +1,175 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Shimla World</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+        <!-- The snow.css file animates the snow -->
+<link rel="stylesheet" href="css/snow.css" type="text/css" media="screen" charset="utf-8">
+<!-- The snow.css file creates the snow -->
+<script src="scripts/snow.js" type="text/javascript" charset="utf-8"></script>
+
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+
+
+</head>
+<body>
+    
+<div id="background">
+    <div id="container"> 
+    <div id="snowContainer">
+	<div id="page">
+		<div id="header">
+			<div id="logo">
+				<a href="index.jsp"><img src="images/logo.png" alt="LOGO" height="112" width="118"></a>
+			</div>
+                    
+                           <br> <h3 align="Right"> <a href="admin.jsp">ADMIN</a></h3>
+  
+
+			<div id="navigation">
+				<ul>
+				<li class="selected">
+                                   <a href="index.jsp">Home</a>
+				</li>
+                                <li>
+                                  <a href="about.jsp">About</a>
+				</li>
+				<li>
+				<a href="rooms.jsp">Rooms</a>
+				</li>
+                                 <li>
+				                        <a href="foods.jsp">Food</a>
+                                 </li>
+				<li>
+				<a href="adventure.jsp">Adventure</a>
+				</li>
+				<li>
+				<a href="gallery.jsp">Gallery</a>
+				</li>
+                                <li>
+				<a href="attractions.jsp">Attractions</a>
+				</li>
+				<li>
+				<a href="contact.jsp">Contact</a>
+				</li>
+                                
+				</ul>
+			</div>
+                   <br>
+                   <br>
+                   <br>
+		<div id="contents">
+			<div id="adbox">
+				<div id="wowslider-container1">
+	                   <div class="ws_images"><ul>
+                           <li><img src="data1/images/a.jpg" alt="Shimla City Bird View" title="Shimla City Bird View" id="wows1_0"/></li>
+                           <li><img src="data1/images/b.jpg" alt="Shimla Pond" title="Shimla Pond" id="wows1_1"/></li>
+                           <li><img src="data1/images/c.jpg" alt="Shimla Toy Train" title="Shimla Toy Train" id="wows1_2"/></li>
+                           <li><img src="data1/images/d.jpg" alt="Shimla Hill Stations" title="Shimla Hill Stations" id="wows1_3"/></li>
+                           <li><img src="data1/images/e.jpg" alt="Shimla Winter Season" title="Shimla Winter Season" id="wows1_4"/></li>
+                          
+                           </ul></div>
+                           <div class="ws_bullets"><div>
+                             <a href="#" title="a"><img src="data1/tooltips/a.jpg" alt="Shimla City Bird View"/>1</a>
+                               <a href="#" title="b"><img src="data1/tooltips/b.jpg" alt="Shimla Pond"/>2</a>
+                               <a href="#" title="c"><img src="data1/tooltips/c.jpg" alt="Shimla Toy Train"/>3</a>
+                                 <a href="#" title="d"><img src="data1/tooltips/d.jpg" alt="Shimla Hill Stations"/>4</a>
+                                <a href="#" title="e"><img src="data1/tooltips/e.jpg" alt="Shimla Winter Season"/>5</a>
+                                
+</div>
+</div>
+                                    <div class="ws_shadow"></div>
+                                </div>
+ 
+                            <h1><font style="color: white">Enjoy the Winter Holidays with Us!
+                                    <br>
+                                    <br>
+				Shimla....Truly Amazing...!!!!!
+                                </font>
+                                </h1>
+			</div>
+                    
+			<div id="main">
+			<div class="box">
+                            <div>
+				<div>
+                                    <h3>Map of Shimla</h3>
+                                    <img src="images/map.jpg" alt="Img">
+				</div>
+                            </div>
+			</div>
+			<div id="testimonials" class="box">
+                            <div>
+				<div>
+				<h3>General Information</h3>
+                                <br>
+                                <h4>
+                                    Snow-capped Himalayan peaks and green pastures surround Shimla, the capital of Himachal Pradesh. Enjoy a heritage walk through Shimla’s Victorian-era architecture, labyrinthine bazaars and lengthy pedestrian shopping mall. <span>- <a href= about.jsp>read this more</a></span>
+                                </h4>				
+				</div>
+                            </div>
+			</div>
+			</div>
+                    
+			<div id="sidebar">
+                            <div class="section">
+				<br>
+                                <br>
+                                <br>
+                                <a href="rooms.jsp"><img src="images/rooms.png" alt="Img"></a>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="section">
+                                <br>
+                                <br>
+                                
+				<a href="foods.jsp"><img src="images/food.png" alt="Img"></a>
+                            </div>
+			</div>
+		</div>
+	</div>
+		<div id="footer">
+                    <div>
+			<ul class="navigation">
+			<li class="active">
+			<a href="index.jsp">Home</a>
+			</li>
+			<li>
+        			<a href="about.jsp">About</a>
+			</li>
+			<li>
+				<a href="rooms.jsp">Rooms</a>
+			</li>
+                         <li>
+				                        <a href="foods.jsp">Food</a>
+                                                </li>
+                        <li>
+				<a href="adventure.jsp">Adventure</a>
+			</li>
+                        <li>
+				<a href="gallery.jsp">Gallery</a>
+			</li>
+			<li>
+                            <a href="attractions.jsp">Attractions</a>
+			</li>
+			<li>
+				<a href="contact.jsp">Contact</a>
+			</li>
+			</ul>
+			
+		</div>
+                  
+		</div>
+	</div>
+</div>
+    </div>
+    </div>
+</body>
+</html>
